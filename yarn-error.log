@@ -1,0 +1,47 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add cors
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hubble/.dotnet/tools:/home/hubble/.dotnet/tools:/home/hubble/Android/Sdk/tools:/home/hubble/Android/Sdk/tools
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  11.15.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EACCES: permission denied, unlink '/home/hubble/Documents/ReactJS-Projects/node-api/node_modules/any-promise/.jshintrc'
+
+npm manifest: 
+  {
+  	"name": "node-api",
+  	"version": "1.0.0",
+  	"description": "",
+  	"main": "index.js",
+  	"scripts": {
+  		"test": "echo \"Error: no test specified\" && exit 1",
+  		"dev": "nodemon server.js"
+  	},
+  	"keywords": [],
+  	"author": "",
+  	"license": "ISC",
+  	"dependencies": {
+  		"express": "^4.17.0",
+  		"mongoose": "^5.5.9",
+  		"require-dir": "^1.2.0"
+  	},
+  	"devDependencies": {
+  		"nodemon": "^1.19.0",
+  		"sucrase": "^3.10.1"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
